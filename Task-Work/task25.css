@@ -1,0 +1,595 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+/* Header Section */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Dropdown added */
+
+.dropbtn {
+    background-color: #d43f3a;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: "Roboto Slab", sans-serif;
+    border-radius: 5px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: #f1f1f1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #d43f3a;
+  }  
+
+/* Hero Section */  
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D'); /* Add your restaurant image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.btn-reserve {
+    display: inline-block;
+    background-color: #d43f3a;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Menu Section */
+
+.menu, .about, .reservation, .contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.menu  {
+    text-align: center;
+    background-color: #333;
+    color: #fff; 
+    align-content: center;
+    opacity: 0.9;
+}
+
+.menu h2 {
+    color: #fff;
+}
+
+.group {
+    display: flex;
+    background-color: #333;
+    width: 100%;
+    align-content: center;
+    justify-content: space-around;
+    display: flex;    
+    font-style: italic;
+}
+
+.group h2 {
+    color: #fff;
+}
+
+/* LEFT SIDE */
+.left {
+    position: relative;
+    left: 10px;
+    height: 495px;
+    overflow-y: scroll;
+    text-align: center;
+}
+.left-sub {
+    max-width: 350px;    
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+.left-sub img{
+    width: 100%;
+    border-radius: 10px;
+}
+.left-sub h3 {
+    font-size: 17px;
+    padding: 7px;
+}
+.left a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.left a:hover .left-sub {
+    background-color: lightsalmon;
+    box-shadow: 1px 1px 10px;
+    transition-duration: 0.4s;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+/* MIDDLE */
+.middle {
+    max-width: 600px;
+    height: 600px;    
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    overflow-y: scroll;
+}
+.middle-sub h2, .middle p{
+    padding-left: 10px;
+}
+.middle img {
+    width: 100%;
+    border-radius: 5px;
+}
+.middle h2 {
+    font-size: 30px;
+}
+.middle p, .middle a {
+    font-size: 16px;
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+}
+.middle p {
+    margin-top: 10px;
+}
+.middle:hover {
+    background-color: lightsalmon;
+    box-shadow: 1px 1px 10px;
+    transition-duration: 0.4s;
+}
+
+/* RIGHT SIDE */
+.right-sub {
+    width: 350px;    
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+.smaller-img img{
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+}
+.right {
+    height: 600px;    
+    overflow-y: scroll;
+    right: 15px;
+}
+.right h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 38px 0 15px;
+}
+.right-link {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+ .right-sub:hover {
+    background-color: lightsalmon;
+    box-shadow: 1px 1px 10px;
+    transition-duration: 0.4s;
+}
+.right-writeup {
+    font-size: 16px;
+    padding: 10px 10px 25px;
+}
+.right-writeup h4{
+    color: #fff;
+    margin: 10px 0;
+}
+
+.about {
+    background-image: url('https://img.freepik.com/free-photo/twigs-leaves-near-lamp-cutlery_23-2147811213.jpg?w=900&t=st=1699007299~exp=1699007899~hmac=f00651e8129a36ebcf48307f5ee8ea92de31e4c29fc6ab1de07230ccf49afd5c');
+    text-align: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 150px 0;    
+    opacity: .8;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about h2, h3, p {
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;           
+}
+
+.about-turn {
+    padding: 10px;
+    margin: 100px;
+}
+
+.reservation {   
+    background-image: url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FmZXxlbnwwfHwwfHx8MA%3D%3Dhttps://img.freepik.com/free-photo/delicious-fried-chicken-plate_144627-27383.jpg?w=900&t=st=1699006560~exp=1699007160~hmac=128a1d74967f605d02b3569747db14c72b97535e734fcb980be4b66e33af2e25');
+    text-align: bottom right;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 150px 0;    
+    width: 100%;
+}
+
+.reservation-turn {
+    padding: 140px;
+}
+
+.reservation h3{
+    opacity: 0.8;
+}
+
+.contact {   
+    background-image: url('https://img.freepik.com/free-photo/chopped-vegetables-roasted-potato-wooden-cutting-board-white-background_23-2148026936.jpg?w=900&t=st=1699006979~exp=1699007579~hmac=4cf8d19da31debe1ed609da9993fb5c582e3667f637bb7f82aeb8f3566a9d8d9');
+    text-align: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 200px 0;
+}
+
+.contact h3 {
+    color: #333;
+    opacity: 0.8;
+}
+
+.contact img {
+    width: 100%;
+}
+
+.contact-turn {
+    padding: 140px;
+    margin-left: 100px;
+}
+
+/* Location Section */
+
+.location {
+    padding: 150px 0;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.location h2, h3{
+    text-align: center;
+    color: #333;
+    text-justify:auto;
+}
+  
+.container-search {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+  }
+  
+  .searchBarHolder {
+    position: relative;
+  }
+  
+  #searchBar {
+    margin-top: 20px;
+    background-color: rgb(10, 9, 9);
+    border-radius: 45px;
+    border: 1px solid rgb(11, 11, 11);
+    text-align: left;
+    height: 50px;
+    outline: none;
+    min-width: 400px;
+    padding-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+
+  }
+  #searchBar:focus {
+  border:2px solid rgb(79, 137, 224)
+  }
+
+  #searchBarSubmit {
+    position: absolute;
+    top:0;
+    height: 38px;
+    width: 40px;
+    background-color: rgb(243, 5, 5);
+    border: 1px transparent;
+    border-radius: 40px;
+    padding: 7px;
+    right: 0;
+    margin-right: 8px;
+    margin-top: 28px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    outline: none;
+
+  }
+
+  .lct-Icon {
+    position: relative;
+    padding-bottom:50px;
+    left:55%;
+	  transform: translate(-50%,-50%);
+    color: rgb(128, 123, 123);
+  }
+
+  #searchBarSubmit i{
+    position: relative;
+    right: 0;
+    color: white;
+
+  }
+  .btn{
+    margin:0;
+    background-color: red;
+    position: relative;
+    left: 43%;
+    color:black;
+    padding: 10px 12px;
+    border:none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 200px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: 900;
+  }
+  
+  .btn i{
+    font-weight:1000;
+    font-size: 15px;
+  }
+
+  .btn:hover{
+    background-color:#333;
+    transition: 1s;
+  }
+
+
+h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.restaurant-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+/* Footer Section */
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo {
+    text-align: left;
+}
+
+.footer-logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.contact-info, .social-media {
+    text-align: center;
+}
+
+.contact-info h2, .social-media h2 {
+    font-size: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    margin: 5px 0;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.social-media a:before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.icon-facebook:before {
+    background: url('facebook-icon.png') no-repeat;
+    background-size: cover;
+}
+
+.icon-twitter:before {
+    background: url('twitter-icon.png') no-repeat;
+    background-size: cover;
+}
+
+.icon-instagram:before {
+    background: url('instagram-icon.png') no-repeat;
+    background-size: cover;
+}
+
+.icon-facebook, .icon-twitter, .icon-instagram {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.icon-facebook:hover, .icon-twitter:hover, .icon-instagram:hover {
+    color: #333;
+}
+
+.footer-disclaimer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.share{    
+    bottom: 3rem;
+    left: 75%;
+    display: flex;
+    align-items: center;
+}
+.share p{
+    font-size: 10px;
+    color: var(--text-color);
+    margin-right: 25px;
+    font-weight: bolder;
+}
+.social i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
+    box-shadow: 0px 20px 40px #00000070;
+    border: 1px solid #3b3b3b;
+    border-radius: 50%;
+    color: var(--text-color);
+    font-size: 20px;
+    margin: 0 7px;
+    transition: all 0.6s ease-in-out;
+}
+.social i:hover{
+    transform: translateY(-10px);
+}
+
+.btn{
+    display: inline-block;
+    padding: 14px 24px;
+    background: var(--main-color);
+    color: var(--text-color);
+    border: 2px solid var(--main-color);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.6s ease-in-out;
+}
+
+.btn:hover{
+    transform: translateY(5px);
+    background: transparent;
+    color: var(--main-color);
+}
+
+.two{
+    background: #141414;
+    border: 2px solid #141414;
+    color: var(--text-color);
+    margin-left: 10px;
+}
+
+.two:hover{
+    color: #141414;
+    background: var(--text-color);
+    border: 2px solid var(--text-color);
+}

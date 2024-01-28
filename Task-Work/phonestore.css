@@ -1,0 +1,26 @@
+body {
+    background-color:lightblue
+}
+h2 {
+    text-align:center; color:blueviolet; font-size:60px;
+}
+h3 {
+    text-align:center; color:blueviolet; font-size: 45px;
+}
+h4 {
+    text-align:center; color:blueviolet
+}
+p  {
+    color:blueviolet; font-size: 20px; font-weight: bold ; text-align: left;
+}
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-style: oblique;
+}
+.mysecondheading {
+    text-align:right; color: cornsilk; border: 2px solid silver;
+}
+#myp2 {
+    color: black; text-align: left
+}
+
+    

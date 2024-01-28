@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Open+Sans&family=Oxygen&family=Poppins&family=Roboto&family=Ubuntu&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  a,
+  a:hover,
+  a:active,
+  a:focus {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
+  ul{
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    list-style: none;
+    font-weight:300;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  li:hover{
+    list-style: none;
+    font-weight:300;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  /* Nav Section */
+  
+  .container-nav {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .container-nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container-nav-right {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    right: 0;
+    width: 100%;
+    margin-top: 17px;
+    padding-right: 24px;
+    position: fixed;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://i.postimg.cc/R0Mz0PFW/header.jpg');
+  }
+  
+  #signUp {
+    min-height: 40px;
+    color: rgb(60, 57, 57);
+    padding: 0 15px;
+    background-color: white;
+    color: rgb(77, 77, 77);
+    border: none;
+    border-radius: 25px;
+    font-size: 0.95rem;
+    font-weight: 700;
+  }
+  
+  #signBtn {
+    padding: 0 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    min-height: 40px;
+    font-size: 0.95rem;
+    font-weight: 700;
+
+  }
+  #signBtn:hover{
+    background-color: rgb(206, 31, 31);
+    transition: 1s;
+  }
+  
+  #header-logo {
+    width: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  /* Heading */
+  
+  .container-heading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 220px;
+    padding-top: 10px;
+  }
+  
+  .strap {
+    text-align: center;
+    max-width: 770px;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-top: 80px;
+    padding-top: 80px;
+    color: rgb(245, 235, 235);
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
+  
+  /* Search Bar */
+  
+  .container-search {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+  }
+  
+  .searchBarHolder {
+    position: relative;
+  }
+  
+  #searchBar {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 45px;
+    border: 1px solid white;
+    text-align: left;
+    height: 50px;
+    outline: none;
+    min-width: 400px;
+    padding-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+
+  }
+  #searchBar:focus {
+  border:2px solid rgb(79, 137, 224)
+  }
+
+  #searchBarSubmit {
+    position: absolute;
+    top:0;
+    height: 38px;
+    width: 40px;
+    background-color: rgb(243, 5, 5);
+    border: 1px transparent;
+    border-radius: 40px;
+    padding: 7px;
+    right: 0;
+    margin-right: 8px;
+    margin-top: 28px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    outline: none;
+
+  }
+
+  .lct-Icon {
+    position: relative;
+    padding-bottom:50px;
+    left:55%;
+	  transform: translate(-50%,-50%);
+    color: rgb(128, 123, 123);
+  }
+
+  #searchBarSubmit i{
+    position: relative;
+    right: 0;
+    color: white;
+
+  }
+  .btn{
+    margin:0;
+    background-color: white;
+    position: relative;
+    left: 43%;
+    color:black;
+    padding: 10px 12px;
+    border:none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 200px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: 900;
+  }
+  .btn i{
+    font-weight:1000;
+    font-size: 15px;
+  }
+
+  .btn:hover{
+    background-color:rgb(219, 214, 214) ;
+    transition: 1s;
+
+  }
+  /* Container2 */
+
+.container2 {
+  width: 100%;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.container2 h2{
+  margin-top: 0;
+}
+
+.container2 a{
+  font-weight: 800;
+  color: red;
+}
+
+.container2-top {
+  display: flex;
+  margin-top: 130px;
+  height: 430px;
+}
+
+.container2-top-left {
+  padding: 0 0 0 70px;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container2-top-mid {
+  padding: 0 0 0 70px;
+  text-align: center;
+  width: 34%;
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container2-top-right {
+  padding: 0 70px 0 70px;
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container2-bottom {
+  display: flex;
+  text-align: left;
+  height: 500px;
+}
+.container2-bot-right img{
+
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  width: 700px;
+  height: 450px;
+
+}
+
+
+.container2-bot-left{
+  padding-top: 80px;
+  max-width: 40%;
+
+}
+
+.con2-bot-left{
+  padding: 0 65px;
+}
+
+.mid-pics {
+  width: 40%;
+  height: auto;
+}
+
+.f1{
+  width: 120%;
+  height: auto;
+}
+
+#find-res-btn{
+  background-color: red;
+  border-radius: 25px;
+  width: 160px;
+  min-height: 40px;
+  padding: 0 15px;
+  color: white;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+#find-res-btn:hover{
+  background-color:rgb(162, 6, 6) ;
+  transition: 1s;
+}
+
+

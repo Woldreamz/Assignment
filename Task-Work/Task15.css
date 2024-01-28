@@ -1,0 +1,86 @@
+<style>
+            body{
+                font-family: georgia;               
+            }
+            hr {
+                padding: 0px;
+                height: 1.5px;
+                background-color: rgb(25, 26, 26);
+                border-color: rgb(25, 103, 103);
+            }
+            h1 {
+                margin: 5px;
+                color: rgb(25, 26, 26);
+            }
+            h2 {
+                padding-top: 12px;
+                color: rgb(25, 26, 26)
+            }
+            .container {
+                padding: 2% 2%;
+                padding-right: 20%;
+                padding-left: 20%;
+                background-color: crimson;
+            }
+            input[type=radio] {
+                border: 0px;
+                width: 2%;
+                height: 14px;
+            }
+            input[type=text], input[type=password], textarea {
+                width: 96%;
+                padding: 15px;
+                font-size: medium;
+                opacity: 0.8;
+                font-family: georgia;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: none;
+                border-radius: 20px;
+            }
+            input[type=text]:focus, input[type=password]:focus {
+                background-color: rgb(236, 234, 198);
+                outline: none;
+            }
+            label {
+                font-size: large;
+                font-family: georgia;
+            }
+            select {
+                display:flexbox; 
+                font-size: medium; 
+                color: rgb(1, 48, 49); 
+                border: none; 
+                background-color: rgb(245, 245, 245); 
+                padding: 1%;
+                border-radius: 10px;
+            }
+            div {
+                border: none;
+                margin-bottom: 25px;
+                text-align: left;
+                padding-left: 0%;
+                border-radius: 20px;
+            }
+            .registerbtn {
+                background-color: gold;
+                color: white;
+                font-size: 20px;
+                font-family: georgia;
+                padding: 16px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.9;
+                border-radius: 5px;
+            }            
+            .registerbtn:hover {
+                opacity: 1;
+                background-color: black;
+            }
+            .required::after {
+                content: '*';
+                color: rgb(196, 0, 0);
+            }
+        </style>

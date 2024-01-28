@@ -1,0 +1,27 @@
+.data {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.data th {
+    background-color: rgb(200, 80, 211);
+    padding: 7px;
+    color: white;
+    border: 1px solid violet;
+}
+
+.data td {
+    padding: 7px;
+    border: 1px solid rgb(128, 128, 128);
+    
+} 
+
+.data tr:nth-child(odd) {
+    background-color: #f8e4f5;
+}
+
+.data tr:hover {
+    background-color: #0C2D48;
+    color: white;
+}

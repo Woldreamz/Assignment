@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+}
+h3 {
+    color: chocolate;
+}
+h4 {
+    font-size: 25px;
+    color: gold;
+}
+p {
+    color: tomato;
+}
+
+#mytitle {
+  position: absolute;
+  top: 0;
+  z-index: 1;  
+}
+#myintro {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+p {
+  width: 150px; 
+  border: 1px solid #000000;
+  word-break: break-all;
+}
