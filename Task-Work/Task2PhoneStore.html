@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta  name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>WDR Phone Store </title>
+<style>
+    button {
+        border-radius: 5px;
+        background-color: blueviolet;
+        color: greenyellow;
+        width: 50%;
+        height: 40px;
+        margin-left: 50%;        
+    }
+</style>    
 </head>
 <body>
     <h2>WDR Gadget Store</h2>
@@ -12,7 +22,13 @@
     <h4> Android  &emsp; &emsp; &emsp; &emsp; &emsp; Amazon Fire phone &emsp; &emsp; &emsp; &emsp; &emsp; Windows Phone &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; iOS </h4>
     <h4> Our Android Flagships consist off</h3>
     <!-- This is the first item in the store -->
-     <p title="I'm a tooltip"> (1) Samsung Galaxy S23 Ultra <br> <br>
+    <fieldset>
+        <legend>
+            <p id="Goku" title="I'm a tooltip"> (1) Samsung Galaxy S23 Ultra <br> <br>
+                <button type="Button" onclick='document.getElementById("Goku").innerHTML="Buy an orange!"'>Click here
+                </button>        
+        </legend>
+    </fieldset> 
         <a href="https://www.jumia.com.ng/catalog/?q=iphone"><img src="https://fdn.gsmarena.com/imgroot/reviews/23/samsung-galaxy-s23-ultra/-728x314/gsmarena_003.jpg" alt="samsung-galaxy-s23-ultra" width="520" height="250"></a>
          <p class="mysecondheading">256GB 8GB RAM	$859.00  -	$885.00 <a href="konga.com"> ORDER NOW </a></p>
         <p class="mysecondheading">256GB 12GB RAM	$930.00  -	$939.00 <a href="konga.com"> ORDER NOW </a></p>
