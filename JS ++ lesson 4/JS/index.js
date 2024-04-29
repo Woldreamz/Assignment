@@ -11,7 +11,7 @@ function guessGame () {
     let guess;
 
     do {
-        guess = prompt("Guess a random number between 0 and 11");
+        guess = procdmpt("Guess a random number between 0 and 11");
         console.log(guess, randomNumber);
 
         if (randomNumber > guess)(
